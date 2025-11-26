@@ -1,67 +1,40 @@
 # learning-hypervisor-record-from-yao-li-xing
 
-> 学习 hypervisor 相关内容的记录仓库。
-> - 暑期日志：`docs/logs/summer-2025.md`,记录了龙芯实习的日报
-> - 2025 年 11 月日志：`docs/logs/2025-11.md`,从0构建精简化的riscv hypervisor，学习hypervisor机理
+![hypervisor](picture/logo.jpg)
 
-### 专题笔记（notes）
+> 学习 hypervisor 相关内容的记录仓库。
+> - 暑期日志：`docs/logs/summer-2025.md`，记录龙芯实习的日报
+> - 2025 年 11 月日志：`docs/logs/2025-11.md`，从 0 构建精简化的 RISC-V hypervisor，学习 hypervisor 机理
+
+## 快速导航
+
+- [学习日志 Logs](#学习日志-logs)
+- [专题笔记 Notes](#专题笔记-notes)
+- [资料 / 链接 Resources](#资料--链接-resources)
+
+## 学习日志 Logs
+
+记录不同阶段的 hypervisor 学习进展，详细内容在对应日志文件中。
+
+- [2025-summer（暑期学习日志，LoongArch 实习）](docs/logs/summer-2025.md)
+- [2025-11（月度日志，RISC-V hypervisor 从 0 实验）](docs/logs/2025-11.md)
+
+## 专题笔记 Notes
+
+与具体主题相关的笔记，位于 `docs/notes/` 目录。
+
 - [LoongArch 虚拟化环境开启（hvisor 提取）](docs/notes/hvisor_note.md)
 - [LoongArch 启动流程 boot.rs 分析](docs/notes/boot.md)
 - [两阶段地址翻译与嵌套页表（LoongArch）](docs/notes/spt.md)
 - [RISC-V Hypervisor 实验笔记](docs/notes/riscv_hypervisor.md)
 - [Axvisor main.rs 启动分析](docs/notes/axvisor_start.md)
 - [月报(7.10 - 8.10)](docs/notes/monthly_report_(7.10-8.10).md)
-- jailhouse学习过程中未整理的一些笔记: docs/notes/jailhouse_hivisor
+- jailhouse 学习过程中未整理的一些笔记: docs/notes/jailhouse_hivisor
 
-## 目录
+## 资料 / 链接 Resources
 
-### 2025-summer（暑期学习日志）
-- [Day1](docs/logs/summer-2025.md#day1)
-- [Day2](docs/logs/summer-2025.md#day2)
-- [Day3](docs/logs/summer-2025.md#day3)
-- [Day4](docs/logs/summer-2025.md#day4)
-- [Day5](docs/logs/summer-2025.md#day5)
-- [Day6](docs/logs/summer-2025.md#day6)
-- [Day7](docs/logs/summer-2025.md#day7)
-- [Day8](docs/logs/summer-2025.md#day8)
-- [Day9](docs/logs/summer-2025.md#day9)
-- [Day10](docs/logs/summer-2025.md#day10)
-- [Day11](docs/logs/summer-2025.md#day11)
-- [Day12](docs/logs/summer-2025.md#day12)
-- [Day13](docs/logs/summer-2025.md#day13)
-- [Day14](docs/logs/summer-2025.md#day14)
-- [Day15](docs/logs/summer-2025.md#day15)
-- [Day16](docs/logs/summer-2025.md#day16)
-- [Day17](docs/logs/summer-2025.md#day17)
-- [Day18](docs/logs/summer-2025.md#day18)
-- [Day19](docs/logs/summer-2025.md#day19)
-- [Day20](docs/logs/summer-2025.md#day20)
-- [Day21](docs/logs/summer-2025.md#day21)
-- [Day22](docs/logs/summer-2025.md#day22)
-- [Day23](docs/logs/summer-2025.md#day23)
-- [Day24](docs/logs/summer-2025.md#day24)
-- [Day25](docs/logs/summer-2025.md#day25)
-- [Day26](docs/logs/summer-2025.md#day26)
-- [Day27](docs/logs/summer-2025.md#day27)
-- [Day28](docs/logs/summer-2025.md#day28)
-- [Day29](docs/logs/summer-2025.md#day29)
-- [Day30](docs/logs/summer-2025.md#day30)
-- [Day31](docs/logs/summer-2025.md#day31)
-- [Day32](docs/logs/summer-2025.md#day32)
-- [Day33](docs/logs/summer-2025.md#day33)
-- [Day34](docs/logs/summer-2025.md#day34)
-- [Day35](docs/logs/summer-2025.md#day35)
-- [Day36](docs/logs/summer-2025.md#day36)
-- [Day37](docs/logs/summer-2025.md#day37)
-- [Day38](docs/logs/summer-2025.md#day38)
-- [Day39](docs/logs/summer-2025.md#day39)
-- [Day40](docs/logs/summer-2025.md#day40)
-- [Day41](docs/logs/summer-2025.md#day41)
+收集和 hypervisor / virtualization 相关的书籍、论文和白皮书（本地 pdf）：
 
-### 2025-11月
-- [11.7](docs/logs/2025-11.md#117)
-- [11.8](docs/logs/2025-11.md#118)
-- [11.10](docs/logs/2025-11.md#1110)
-- [11.15](docs/logs/2025-11.md#1115)
-- [11.16](docs/logs/2025-11.md#1116)
-- [11.17](docs/logs/2025-11.md#1117)
+- [ACRN: a big little hypervisor for IoT development (Li et al., 2019)](docs/resources/2019-li-acrn-big-little-hypervisor-iot.pdf)
+- [Understanding Full Virtualization, Paravirtualization, and Hardware Assist](docs/resources/Understanding%20Full%20Virtualization,%20Paravirtualization,%20and%20Hardware%20Assist.pdf)
+- [KVM virt book](docs/resources/virt_book.pdf)
